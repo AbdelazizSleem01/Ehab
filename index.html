@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Ehab Othman | Barista & Team Leader</title>
+    <meta name="description" content="Ehab Othman Abdelmonem is a Barista and Team Leader from Benha, Egypt, with experience in coffee preparation, customer service, team leadership, and food safety.">
+    <meta name="keywords" content="Ehab Othman, Barista, Team Leader, Coffee Artisan, CV, Resume, Benha, Egypt, Customer Service, Food Safety">
+    <meta name="author" content="Ehab Othman Abdelmonem">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#141722">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ehab Othman Portfolio">
+    <meta property="og:title" content="Ehab Othman | Barista & Team Leader">
+    <meta property="og:description" content="Professional profile of Ehab Othman Abdelmonem, featuring work experience, core skills, contact details, and CV.">
+    <meta property="og:image" content="img.webp">
+    <meta property="og:image:alt" content="Portrait of Ehab Othman Abdelmonem">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ehab Othman | Barista & Team Leader">
+    <meta name="twitter:description" content="Professional profile of Ehab Othman Abdelmonem, featuring work experience, skills, and CV.">
+    <meta name="twitter:image" content="img.webp">
+    <meta name="twitter:image:alt" content="Portrait of Ehab Othman Abdelmonem">
+    <link rel="icon" type="image/webp" href="favicon.webp">
+    <link rel="apple-touch-icon" href="favicon.webp">
+    <!-- Google Fonts + Font Awesome 6 (free) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ehab Othman Abdelmonem",
+            "jobTitle": "Barista & Team Leader",
+            "image": "img.webp",
+            "email": "mailto:ehabosman676@gmail.com",
+            "telephone": "+20 10 60654071",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Benha",
+                "addressRegion": "Qalyubia",
+                "addressCountry": "EG"
+            },
+            "sameAs": [
+                "https://www.instagram.com/ehab_osman_1",
+                "https://web.facebook.com/ehab.osman.106"
+            ]
+        }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.25s ease, color 0.2s ease;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        /* Light mode variables (default) */
+        :root {
+            --bg-body: #f8fafc;
+            --bg-surface: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #334155;
+            --text-muted: #475569;
+            --border-light: #e2e8f0;
+            --accent: #b46e3a;     /* coffee / warm accent */
+            --accent-light: #d98e53;
+            --accent-soft: #fdf4e6;
+            --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.03), 0 2px 6px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 20px 30px -12px rgba(0, 0, 0, 0.08);
+            --card-radius: 1.5rem;
+            --icon-bg: #f1f5f9;
+        }
+
+        /* Dark mode variables */
+        body.dark {
+            --bg-body: #0a0c12;
+            --bg-surface: #141722;
+            --text-primary: #edf2f7;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border-light: #2d3a4b;
+            --accent: #e2a46b;
+            --accent-light: #f0bc86;
+            --accent-soft: #2a241e;
+            --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.4);
+            --shadow-md: 0 20px 30px -12px rgba(0, 0, 0, 0.5);
+            --icon-bg: #1e293b;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            width: 100%;
+        }
+
+        /* header + theme toggle */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        .brand {
+            min-width: 0;
+            flex: 1;
+        }
+
+        .brand h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            background: linear-gradient(135deg, var(--accent), #c8824a);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            overflow-wrap: anywhere;
+        }
+
+        .brand p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            margin-top: 0.2rem;
+            overflow-wrap: anywhere;
+        }
+
+        .theme-toggle {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-light);
+            border-radius: 60px;
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-primary);
+            transition: all 0.2s;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .theme-toggle i {
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+
+        .theme-toggle:hover {
+            background: var(--accent-soft);
+            border-color: var(--accent-light);
+        }
+
+        /* 2-column grid layout */
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 2.2fr;
+            gap: 2rem;
+        }
+
+        /* sidebar styling */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .profile-card {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .profile-photo {
+            width: 100%;
+            max-width: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 1.4rem;
+            display: block;
+            margin: 0 auto 1.2rem;
+            border: 3px solid var(--accent-soft);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .profile-card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .profile-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .cv-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.65rem;
+            width: 100%;
+            padding: 0.9rem 1rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            color: #fff;
+            font-weight: 600;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cv-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            text-decoration: none;
+        }
+
+        .card {
+            background: var(--bg-surface);
+            border-radius: var(--card-radius);
+            padding: 1.6rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid var(--border-light);
+            min-width: 0;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 0.9rem;
+        }
+
+        .card-title i {
+            color: var(--accent);
+            font-size: 1.3rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            word-break: break-word;
+            min-width: 0;
+        }
+
+        .contact-item i {
+            width: 28px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+
+        .social-handles {
+            display: flex;
+            gap: 1rem;
+            margin-top: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .social-badge {
+            background: var(--icon-bg);
+            padding: 0.4rem 1rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-primary);
+            border: 1px solid var(--border-light);
+            max-width: 100%;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--icon-bg);
+            padding: 0.55rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.77rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            transition: 0.1s;
+            border: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 44px;
+            white-space: nowrap;
+        }
+
+        .skill-tag i {
+            margin-right: 7px;
+            font-size: 0.72rem;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .skill-tag.full-width {
+            grid-column: 1 / -1;
+            justify-content: center;
+        }
+
+        .lang-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .lang-name {
+            font-weight: 500;
+        }
+        .lang-level {
+            font-size: 0.8rem;
+            background: var(--accent-soft);
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            color: var(--accent);
+        }
+
+        .milestone {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            background: var(--icon-bg);
+            padding: 0.8rem;
+            border-radius: 1rem;
+            margin-top: 1rem;
+        }
+
+        /* main content area */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .summary-text {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: baseline;
+            margin-bottom: 1rem;
+        }
+
+        .job-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .company {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        .job-date {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            background: var(--icon-bg);
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            white-space: nowrap;
+        }
+
+        .achievement-list {
+            list-style: none;
+            margin-top: 0.8rem;
+        }
+        .achievement-list li {
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+        .achievement-content {
+            flex: 1;
+            min-width: 0;
+            color: var(--text-secondary);
+        }
+        .achievement-content strong {
+            color: var(--text-primary);
+        }
+        .achievement-list li i {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-top: 0.2rem;
+            width: 18px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .stats-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0 0.5rem;
+        }
+        .stat-badge {
+            background: var(--accent-soft);
+            border-radius: 2rem;
+            padding: 0.3rem 1rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .education-item {
+            margin-bottom: 0.8rem;
+        }
+        .edu-degree {
+            font-weight: 700;
+        }
+        .military-status {
+            display: inline-block;
+            background: var(--accent-soft);
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+        }
+
+        hr {
+            margin: 1rem 0;
+            border-color: var(--border-light);
+        }
+
+        /* responsive */
+        @media (max-width: 880px) {
+            .two-columns {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .container {
+                padding: 1.25rem 1rem;
+            }
+            .header {
+                align-items: flex-start;
+            }
+            .brand h1 {
+                font-size: 1.6rem;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .skill-tag.full-width {
+                grid-column: auto;
+            }
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.7rem;
+            }
+            .achievement-list li {
+                flex-wrap: nowrap;
+            }
+            .stat-badge {
+                display: inline-flex;
+                align-items: center;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .container {
+                padding: 1rem 0.75rem;
+            }
+            .card {
+                padding: 1.1rem;
+                border-radius: 1.2rem;
+            }
+            .header {
+                gap: 0.75rem;
+                margin-bottom: 1.25rem;
+            }
+            .brand h1 {
+                font-size: 1.35rem;
+                line-height: 1.2;
+            }
+            .brand p {
+                font-size: 0.92rem;
+                line-height: 1.45;
+            }
+            .theme-toggle {
+                width: 100%;
+                justify-content: center;
+                padding: 0.7rem 1rem;
+                font-size: 0.92rem;
+            }
+            .profile-photo {
+                max-width: 180px;
+                margin-bottom: 1rem;
+            }
+            .profile-card h2 {
+                font-size: 1.15rem;
+            }
+            .profile-card p {
+                font-size: 0.9rem;
+            }
+            .cv-button {
+                padding: 0.8rem 0.9rem;
+                font-size: 0.92rem;
+            }
+            .card-title {
+                font-size: 1.1rem;
+                padding-left: 0.7rem;
+                margin-bottom: 1rem;
+            }
+            .contact-item {
+                gap: 0.7rem;
+                font-size: 0.88rem;
+                align-items: flex-start;
+            }
+            .contact-item i {
+                width: 22px;
+                font-size: 1rem;
+                margin-top: 0.1rem;
+            }
+            .social-handles {
+                gap: 0.6rem;
+            }
+            .social-badge {
+                width: 100%;
+                justify-content: flex-start;
+                font-size: 0.78rem;
+                padding: 0.42rem 0.75rem;
+            }
+            .skills-grid {
+                gap: 0.6rem;
+            }
+            .skill-tag {
+                min-height: 40px;
+                font-size: 0.76rem;
+                padding: 0.5rem 0.75rem;
+            }
+            .lang-item {
+                gap: 0.5rem;
+                align-items: center;
+            }
+            .lang-name {
+                font-size: 0.95rem;
+            }
+            .lang-level {
+                font-size: 0.72rem;
+                padding: 0.18rem 0.6rem;
+            }
+            .milestone {
+                padding: 0.75rem;
+            }
+            .summary-text,
+            .education-item,
+            .milestone,
+            .achievement-list li,
+            footer {
+                font-size: 0.92rem;
+            }
+            .job-title {
+                font-size: 1.05rem;
+                line-height: 1.35;
+            }
+            .company {
+                display: inline;
+            }
+            .job-date {
+                font-size: 0.72rem;
+                padding: 0.25rem 0.65rem;
+            }
+            .achievement-list li {
+                gap: 0.55rem;
+                margin-bottom: 0.95rem;
+                line-height: 1.55;
+                flex-wrap: nowrap;
+            }
+            .achievement-list li i {
+                margin-top: 0.15rem;
+                width: 16px;
+                font-size: 0.9rem;
+            }
+            .stats-row {
+                gap: 0.55rem;
+            }
+            .stat-badge {
+                font-size: 0.72rem;
+                padding: 0.28rem 0.7rem;
+            }
+            footer {
+                margin-top: 2rem;
+                padding-top: 1.2rem;
+            }
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-light);
+            padding-top: 1.8rem;
+        }
+        .footer-credit {
+            margin-top: 0.7rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        .footer-credit a {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        .footer-credit a:hover {
+            text-decoration: underline;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .contact-item a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        i.fa, i.far, i.fas, i.fab {
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="brand">
+            <h1>Ehab Othman Abdelmonem</h1>
+            <p><i class="fas fa-mug-hot" style="color: var(--accent); margin-right: 6px;"></i> Barista & Team Leader · Coffee Artisan</p>
+        </div>
+        <button class="theme-toggle" id="darkmode-toggle" aria-label="Dark mode switch">
+            <i class="fas fa-moon"></i> <span id="mode-text">Dark Mode</span>
+        </button>
+    </div>
+
+    <div class="two-columns">
+        <!-- Left sidebar: contact + skills + languages + military -->
+        <aside class="sidebar">
+            <div class="card profile-card">
+                <img src="img.webp" alt="Ehab Othman" class="profile-photo">
+                <h2>Ehab Othman</h2>
+                <p>Barista & Team Leader</p>
+                <a href="Ehab CV.pdf" class="cv-button" target="_blank" rel="noopener noreferrer" download>
+                    <i class="fas fa-file-arrow-down"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+
+            <!-- Contact card -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-address-card"></i> <span>Contact</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i> <span><a href="tel:+201060654071">+20 10 60654071</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i> <span><a href="mailto:ehabosman676@gmail.com">ehabosman676@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i> <span>Benha, Qalyubia, Egypt</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-hashtag"></i> <span>Social handles:</span>
+                </div>
+                <div class="social-handles">
+                    <a class="social-badge" href="https://www.instagram.com/ehab_osman_1" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i> ehab_osman_1
+                    </a>
+                    <a class="social-badge" href="https://web.facebook.com/ehab.osman.106" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i> ehab.osman.106
+                    </a>
+                </div>
+            </div>
+
+            <!-- Skills section (full list from CV) -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-star-of-life"></i> <span>Core Skills</span>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-tag"><i class="fas fa-coffee"></i> Espresso Prep</span>
+                    <span class="skill-tag"><i class="fas fa-flask"></i> Espresso Extraction</span>
+                    <span class="skill-tag"><i class="fas fa-water"></i> Milk Frothing</span>
+                    <span class="skill-tag"><i class="fas fa-palette"></i> Latte Art</span>
+                    <span class="skill-tag"><i class="fas fa-smile"></i> Customer Service</span>
+                    <span class="skill-tag"><i class="fas fa-check-double"></i> Order Accuracy</span>
+                    <span class="skill-tag"><i class="fas fa-cash-register"></i> Point Of Sale</span>
+                    <span class="skill-tag"><i class="fas fa-hand-holding-usd"></i> Cash Handling</span>
+                    <span class="skill-tag"><i class="fas fa-chalkboard-user"></i> Team Management</span>
+                    <span class="skill-tag"><i class="fas fa-tasks"></i> Multitasking</span>
+                    <span class="skill-tag"><i class="fas fa-utensils"></i> Food Safety</span>
+                    <span class="skill-tag full-width"><i class="fas fa-users"></i> Customer Management</span>
+                </div>
+            </div>
+
+            <!-- Languages + Military -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-language"></i> <span>Languages</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-name"><i class="fas fa-flag"></i> Arabic</span>
+                    <span class="lang-level">Native</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-name"><i class="fas fa-globe"></i> English</span>
+                    <span class="lang-level">Basic </span>
+                </div>
+                <hr>
+                <div class="milestone">
+                    <i class="fas fa-shield-alt fa-lg" style="color: var(--accent);"></i>
+                    <div>
+                        <strong>Military Service</strong><br>
+                        <span style="font-size: 0.85rem;">✅ Completed</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main content: Summary, Work Experience, Education -->
+        <main class="main-content">
+            <!-- Summary Card -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-quote-left"></i> <span>Professional Summary</span>
+                </div>
+                <div class="summary-text">
+                    As a passionate Barista and experienced Team Leader, I bring skills in crafting exceptional coffee experiences 
+                    and fostering a collaborative team environment. Dedicated to quality service and team motivation, I create 
+                    memorable moments for customers and colleagues. Excited to elevate the coffee experience and drive success.
+                </div>
+            </div>
+
+            <!-- Work Experience: Bellissimo -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-briefcase"></i> <span>Work Experience</span>
+                </div>
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Barista & Team Leader</span> 
+                        <span class="company"> @ Bellissimo</span>
+                        <div class="company-location" style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Benha, Qalyubia</div>
+                    </div>
+                    <div class="job-date"><i class="far fa-calendar-alt"></i> Jul 2023 – Present</div>
+                </div>
+                <ul class="achievement-list">
+                    <li>
+                        <i class="fas fa-chart-line"></i>
+                        <div class="achievement-content">
+                            <strong>Led a high-performing team</strong> to exceed sales targets by <span class="stat-badge">+30% annually</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-user-plus"></i>
+                        <div class="achievement-content">
+                            <strong>Innovative retention strategies</strong> — boosted client retention by <span class="stat-badge">+25%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-chalkboard"></i>
+                        <div class="achievement-content">
+                            <strong>Developed training programs</strong> that improved team productivity by <span class="stat-badge">+20%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-handshake"></i>
+                        <div class="achievement-content">
+                            <strong>Strong client relationships</strong> resulting in a <span class="stat-badge">+50% increase in referrals</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="stats-row">
+                    <span class="stat-badge"><i class="fas fa-trophy"></i> Sales leader</span>
+                    <span class="stat-badge"><i class="fas fa-heart"></i> 95% satisfaction</span>
+                    <span class="stat-badge"><i class="fas fa-users"></i> Team coaching</span>
+                </div>
+            </div>
+
+            <!-- Education + certification-like info -->
+            <div class="card">
+                <div class="card-title">
+                    <i class="fas fa-graduation-cap"></i> <span>Education & Status</span>
+                </div>
+                <div class="education-item">
+                    <div class="edu-degree"><i class="fas fa-building"></i> Benha Technical Industrial Institute</div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Benha, Qalyubia — Graduated</div>
+                </div>
+                <div style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <div><i class="fas fa-check-circle" style="color: var(--accent);"></i> Military service: Completed</div>
+                </div>
+                <!-- Extra honor: just to show coffee expertise -->
+                <hr>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+                    <span><i class="fas fa-award"></i> Certified Barista skills</span>
+                    <span><i class="fas fa-heartbeat"></i> Food Safety certified</span>
+                </div>
+            </div>
+
+            <!-- Quick note: additional leadership trait (optional but consistent) -->
+            <div class="card" style="background: var(--accent-soft); border-left: 4px solid var(--accent);">
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <i class="fas fa-mug-hot fa-2x" style="color: var(--accent);"></i>
+                    <div>
+                        <strong style="font-size: 1rem;">Coffee Craft & Leadership Mindset</strong>
+                        <p style="font-size: 0.85rem; margin-top: 6px;">Passionate about every espresso shot, team synergy, and delivering world-class coffee experiences. Ready to bring energy and excellence to your establishment.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <i class="fas fa-coffee"></i> Ehab Othman Abdelmonem — Barista & Team Leader — Let’s create exceptional moments <i class="fas fa-heart" style="color: var(--accent);"></i>
+        <div class="footer-credit">
+            بواسطة <a href="https://abdelaziz-sleem.vercel.app/" target="_blank" rel="noopener noreferrer">عبدالعزيز سليم</a>
+        </div>
+    </footer>
+</div>
+
+<script>
+    (function() {
+        const toggleBtn = document.getElementById('darkmode-toggle');
+        const modeTextSpan = document.getElementById('mode-text');
+        const isDarkStored = localStorage.getItem('theme') === 'dark';
+        
+        // set initial mode based on localStorage or system pref
+        if (isDarkStored) {
+            document.body.classList.add('dark');
+            if(modeTextSpan) modeTextSpan.innerText = 'Light Mode';
+            if(toggleBtn) toggleBtn.querySelector('i').className = 'fas fa-sun';
+        } else {
+            // optionally check system pref
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if(prefersDark && !localStorage.getItem('theme')) {
+                document.body.classList.add('dark');
+                if(modeTextSpan) modeTextSpan.innerText = 'Light Mode';
+                if(toggleBtn) toggleBtn.querySelector('i').className = 'fas fa-sun';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                if(modeTextSpan) modeTextSpan.innerText = 'Dark Mode';
+                if(toggleBtn) toggleBtn.querySelector('i').className = 'fas fa-moon';
+            }
+        }
+
+        function toggleDarkMode() {
+            if (document.body.classList.contains('dark')) {
+                document.body.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+                if(modeTextSpan) modeTextSpan.innerText = 'Dark Mode';
+                if(toggleBtn) toggleBtn.querySelector('i').className = 'fas fa-moon';
+            } else {
+                document.body.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+                if(modeTextSpan) modeTextSpan.innerText = 'Light Mode';
+                if(toggleBtn) toggleBtn.querySelector('i').className = 'fas fa-sun';
+            }
+        }
+
+        if(toggleBtn) {
+            toggleBtn.addEventListener('click', toggleDarkMode);
+        }
+    })();
+</script>
+</body>
+</html>
